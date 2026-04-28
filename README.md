@@ -3,9 +3,6 @@
 Copilot Studio + Power Platform で構築したソリューションのサンプル集です。  
 各ソリューションには Dataverse テーブル定義・モデル駆動型アプリ・Power Automate フロー・Copilot Studio エージェント・導入手順書が含まれます。
 
-[![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-対応-blueviolet?style=for-the-badge&logo=github)](https://github.com/features/copilot)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](./LICENSE)
-
 > [!NOTE]
 > 本リポジトリは [ギークフジワラ](https://twitter.com/geekfujiwara) の実務経験・検証に基づき継続的に更新されています。
 
