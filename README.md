@@ -13,11 +13,10 @@ Copilot Studio + Power Platform で構築したソリューションのサンプ
 
 ## ソリューション一覧
 
-| ソリューション                             | 説明                                                                                                | フォルダ           |
-| ------------------------------------------ | --------------------------------------------------------------------------------------------------- | ------------------ |
-| **[汎用ヘルプデスク](./HelpDeskGeneric/)** | チケット管理・ナレッジ管理・AI 回答案生成を統合したモデル駆動型アプリ + Copilot Studio エージェント | `HelpDeskGeneric/` |
-
-> 今後、新しいソリューションがここに追加されます。
+| ソリューション                                                     | 説明                                                                                                | フォルダ                         |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- | -------------------------------- |
+| **[汎用ヘルプデスク](./HelpDeskGeneric/)**                         | チケット管理・ナレッジ管理・AI 回答案生成を統合したモデル駆動型アプリ + Copilot Studio エージェント | `HelpDeskGeneric/`               |
+| **[請求書処理](./InvoiceProcessorSampleDemo/)**                    | PDF 請求書の AI 分析・自動登録 + モデル駆動型アプリによる請求書管理                                 | `InvoiceProcessorSampleDemo/`    |
 
 ---
 
@@ -25,38 +24,13 @@ Copilot Studio + Power Platform で構築したソリューションのサンプ
 
 ```
 CopilotStudio-Sample-Apps/
-├── .github/
-│   ├── agents/GeekPowerCode.agent.md   # GitHub Copilot カスタムエージェント
-│   └── skills/                         # 開発スキル（全ソリューション共通）
-│       ├── power-platform-standard/    #   共通基盤
-│       ├── architecture-design/        #   アーキテクチャ設計
-│       ├── code-apps-dev/              #   Code Apps 開発
-│       ├── code-apps-design/           #   Code Apps デザイン
-│       ├── power-automate-flow/        #   Power Automate フロー
-│       ├── copilot-studio-agent/       #   Copilot Studio エージェント
-│       ├── copilot-studio-trigger/     #   Copilot Studio 外部トリガー
-│       ├── ai-builder-prompt/          #   AI Builder AI プロンプト
-│       ├── html-email-template/        #   HTML メールテンプレート
-│       ├── market-research-report/     #   自動リサーチレポート
-│       ├── solution-docs/              #   README + 導入手順書生成
-│       ├── model-driven-app/           #   モデル駆動型アプリ
-│       ├── security-role/              #   セキュリティロール
-│       └── generative-page-dev/        #   Generative Pages
-├── docs/                               # 開発標準ドキュメント（共通）
-│   ├── POWER_PLATFORM_DEVELOPMENT_STANDARD.md
-│   ├── DATAVERSE_GUIDE.md
-│   ├── CONNECTOR_REFERENCE.md
-│   └── ADVANCED_PATTERNS.md
-├── HelpDeskGeneric/                    # ソリューション: 汎用ヘルプデスク
-│   ├── docs/                           #   導入手順書・マニュアル・スクリーンショット・ZIP
-│   ├── scripts/                        #   Dataverse 構築・デプロイスクリプト
-│   ├── src/                            #   Code Apps ソース（スターターテンプレート）
-│   ├── plugins/                        #   Vite プラグイン
-│   ├── public/                         #   静的アセット
-│   ├── styles/                         #   Tailwind CSS
-│   ├── package.json
-│   ├── vite.config.ts
-│   └── README.md
+├── HelpDeskGeneric/                    # 汎用ヘルプデスク
+│   ├── README.md
+│   └── HelpDeskGeneric_1_1_0_3.zip
+├── InvoiceProcessorSampleDemo/         # 請求書処理
+│   ├── README.md
+│   ├── InvoiceProcessorSmpleDemo_1_0_0_4.zip
+│   └── InvoiceProcessorSmpleDemo_1_0_0_3_managed.zip
 ├── LICENSE
 ├── .gitignore
 └── README.md                           # ← このファイル
