@@ -8,7 +8,7 @@ Copilot Studio + Power Platform で構築したソリューションのサンプ
 
 | ソリューション | 説明 | フォルダ |
 |---|---|---|
-| **[汎用ヘルプデスク](./HelpDeskGeneric/)** | チケット管理・ナレッジ管理・AI 回答案生成を統合したモデル駆動型アプリ + Copilot Studio エージェント | `HelpDeskGeneric/` |
+| **[社内ヘルプデスク・チケット管理エージェント](./HelpDeskGeneric/)** | チケット管理・ナレッジ管理・AI 回答案生成を統合したモデル駆動型アプリ + Copilot Studio エージェント | `HelpDeskGeneric/` |
 | **[請求書処理](./InvoiceProcessorSampleDemo/)** | PDF 請求書の AI 分析・自動登録 + モデル駆動型アプリによる請求書管理 | `InvoiceProcessorSampleDemo/` |
 
 ---
